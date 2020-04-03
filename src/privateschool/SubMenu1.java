@@ -157,7 +157,7 @@ public class SubMenu1 {
         else if (userInput==11) { //Return to main menu
             MainMenu.mainMenu();
         }
-        else {
+        else { //If user inputs digit larger than menu range
             SubMenu1.subMenu1();
         }
     }
